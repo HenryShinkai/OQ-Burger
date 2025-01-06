@@ -1,0 +1,31 @@
+.background{
+  background-image: url(/img/teste.svg);
+  background-size: cover;
+  background-position: center;
+  height: 888px; 
+  display: flex;
+  color: white; 
+  align-items: center;
+  padding: 0 160px;
+}
+
+.conteudo h1{
+  font-size: 70px;
+  width: 25ch;
+  margin-bottom: 60px;
+}
+
+.marrocos{
+  color: #C8102E;
+}
+
+.botao{
+  color: white;
+  background-color: #C8102E;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.botao:hover{
+  color: gold;
+}
