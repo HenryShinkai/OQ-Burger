@@ -48,3 +48,44 @@ footer{
   border-radius: 4px;
   width: auto;
 }
+
+@media (max-width: 1200px) {
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    padding: 16px 40px; 
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+
+  .redes p,
+  .contato p,
+  .localizacao p {
+    font-size: 16px; 
+  }
+
+  .mapa {
+    height: 150px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .dev {
+    font-size: 14px; 
+  }
+
+  .dev::before {
+    width: 80px; 
+  }
+
+  .copy {
+    font-size: 14px;
+  }
+}
